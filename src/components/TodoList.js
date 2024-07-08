@@ -40,7 +40,7 @@ const TodoList = () => {
         <button type="submit" className='add'>Add Task</button>
       </form>
       {tasks.length === 0 ? (
-        <p>No tasks available</p>
+        <p className='notask'>No tasks available</p>
       ) : (
         <div className='todosdata'>
           <ul className='list'>
